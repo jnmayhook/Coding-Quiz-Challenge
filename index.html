@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Coding Quiz Challenge</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <section id ="header">
+            <a href="highscores.html">View Highscores</a>
+            <div id ="timer">Time: 0</div>
+        </section>
+        <section id ="introduction">
+            <h1>Coding Quiz Challenge</h1>
+            <p>Try to answer the following code-related questions within the time limit.  Keep in mind that incorrect answers will penalize your score time by ten seconds!</p>
+            <button id="startBtn">Start Quiz</button>
+        </section>
+        <section id = "questions">
+            <p id="title"></p>
+            <button class="purple choices" id="0"></button>	
+            <button class="purple choices" id="1"></button>
+            <button class="purple choices" id="2"></button>
+            <button class="purple choices" id="3"></button>
+            <p id="result"></p>
+        </section>
+        <section id= "enterInitials">
+            <h2>All Done.</h2> 
+            <span id="finalScore"></span>
+            <form method="POST">
+            <div class="enterInitalsWrap">           
+            <p>Enter initials: <input type="text" name="initials" id="initialsInput" /><button class="purple" id="initialsInputBtn">Submit</button>
+            </p></div>  
+            </form>
+        </section>
+        <section id= "highscoreBoard">
+            <h2>Highscores</h2>
+            <ul id="highscore-list"></ul>
+            <button class="purple" id="goBackBtn">Go Back</button>	
+            <button class="purple" id="clearHighScoresBtn">Clear Highscores</button>
+        </section>
+        </div>
+        
+        <script src="./assets/js/script.js"></script>
+        
+        </body>
+    </html>

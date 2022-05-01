@@ -1,0 +1,86 @@
+body {
+    padding: 50px;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+#header {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-bottom: 150px;
+}
+section h1 {
+    font-size: 2em;
+    margin: 10px;
+}
+section p {
+    margin: 20px;
+    line-height: 1.4em;
+}
+section h1, section p {
+
+}
+button {
+    width: fit-content;
+    background: purple;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.3em;
+    padding: 5px 10px;
+    border: 1px solid black;
+    display: flex;
+    margin-bottom: 10px;
+}
+button#startBtn {
+    display: initial;
+}
+#introduction {
+    display: block;
+}
+#highscoreBoard {
+    display: none;
+}
+#enterInitials {
+   display: none; 
+}
+#questions {
+    display: none;
+}
+#title {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+    margin: 0 0 20px 0;
+    line-height: 1.2em;
+}
+#result {
+    text-align: left;
+    font-size: 1.6em;
+    font-style: italic;
+}
+.enterInitials {
+
+}
+.purple#initialsInputBtn {
+    display: initial;
+}
+.enterInitalsWrap {
+    display: flex;
+    justify-content: center;
+}
+#initialsInput {
+    margin-right: 10px;
+}
+a {
+    color: purple;
+}
+a:hover {
+    color: purple;
+    opacity: .9;;
+}
