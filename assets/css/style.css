@@ -84,3 +84,24 @@ a:hover {
     color: purple;
     opacity: .9;;
 }
+
+#highscore-list li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background: #e1e1e1;
+    border: 1px solid #999;
+    color: #333;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+
+/* Small smartphones */
+@media screen and (max-width: 576px) {
+section p {
+    margin: 20px 0px;
+    line-height: 1.4em;
+}
+}
